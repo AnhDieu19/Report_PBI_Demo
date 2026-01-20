@@ -390,6 +390,36 @@ function setupEventListeners() {
                     start = new Date(today.getFullYear(), today.getMonth() - 1, 1);
                     end = new Date(today.getFullYear(), today.getMonth(), 0);
                     break;
+                case '2 tháng qua':
+                    end = new Date();
+                    start = new Date();
+                    start.setMonth(start.getMonth() - 2);
+                    break;
+                case '3 tháng qua':
+                    end = new Date();
+                    start = new Date();
+                    start.setMonth(start.getMonth() - 3);
+                    break;
+                case '6 tháng qua':
+                    end = new Date();
+                    start = new Date();
+                    start.setMonth(start.getMonth() - 6);
+                    break;
+                case '12 tháng qua':
+                    end = new Date();
+                    start = new Date();
+                    start.setMonth(start.getMonth() - 12);
+                    break;
+                case '18 tháng qua':
+                    end = new Date();
+                    start = new Date();
+                    start.setMonth(start.getMonth() - 18);
+                    break;
+                case '24 tháng qua':
+                    end = new Date();
+                    start = new Date();
+                    start.setMonth(start.getMonth() - 24);
+                    break;
             }
 
             // Update Litepicker
