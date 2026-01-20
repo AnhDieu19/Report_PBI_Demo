@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Whitelist demo folder contents
+!demo/
+!demo/**
+
+# Whitelist this file
+!.gitignore
+
