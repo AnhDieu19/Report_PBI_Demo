@@ -40,25 +40,25 @@ const COLUMN_DEFS = {
         { id: 'user', label: 'Người tạo', default: true },
         { id: 'channel', label: 'Kênh triển khai', default: true },
         { id: 'status', label: 'Trạng thái', default: true },
-        { id: 'sent', label: 'Tổng data đã gửi', type: 'number', default: true },
+        { id: 'sent', label: 'Số lượng gửi', type: 'number', default: true },
         { id: 'date', label: 'Thời gian triển khai', default: true },
-        { id: 'success', label: 'Số thành công', type: 'number', default: false },
-        { id: 'orders', label: 'Số KH mua', type: 'number', default: false },
+        { id: 'success', label: 'Số lượng thành công', type: 'number', default: false },
+        { id: 'orders', label: 'Số Khách hàng mua', type: 'number', default: false },
         { id: 'revenue', label: 'Doanh thu bán hàng', type: 'money', default: true },
-        { id: 'cr', label: 'Tỉ lệ chuyển đổi', type: 'percent', default: false },
+        { id: 'cr', label: 'Tỷ lệ chuyển đổi', type: 'percent', default: false },
         { id: 'aov', label: 'AOV (TB đơn)', type: 'money', default: false }
     ],
     channel: [
         { id: 'cb', label: '', static: true, width: '40px' },
         { id: 'name', label: 'Kênh đi tin', static: true },
-        { id: 'total_kh_u', label: 'Total KH Unique', type: 'number', default: true },
-        { id: 'sent', label: 'Tổng tin gửi', type: 'number', default: true },
-        { id: 'success', label: 'Thành công', type: 'number', default: true },
-        { id: 'reached', label: 'KH Tiếp cận', type: 'number', default: true },
+        { id: 'total_kh_u', label: 'Tổng Khách hàng (Unique)', type: 'number', default: true },
+        { id: 'sent', label: 'Số lượng gửi', type: 'number', default: true },
+        { id: 'success', label: 'Số lượng thành công', type: 'number', default: true },
+        { id: 'reached', label: 'Khách hàng Tiếp cận', type: 'number', default: true },
         { id: 'orders', label: 'Đơn hàng', type: 'number', default: true },
         { id: 'revenue', label: 'Doanh thu', type: 'money', default: true },
         { id: 'cost', label: 'Chi phí', type: 'money', default: false },
-        { id: 'cr', label: 'CR', type: 'percent', default: true },
+        { id: 'cr', label: 'Tỷ lệ chuyển đổi', type: 'percent', default: true },
         { id: 'cpo', label: 'Chi phí/Đơn', type: 'money', default: false }
     ],
     file: [
@@ -67,11 +67,11 @@ const COLUMN_DEFS = {
         { id: 'campaign', label: 'Chiến dịch', default: true },
         { id: 'uploadDate', label: 'Ngày upload', default: true },
         { id: 'totalRows', label: 'Số dòng', type: 'number', default: true },
-        { id: 'sent', label: 'Đã gửi', type: 'number', default: true },
-        { id: 'success', label: 'Thành công', type: 'number', default: true },
+        { id: 'sent', label: 'Số lượng gửi', type: 'number', default: true },
+        { id: 'success', label: 'Số lượng thành công', type: 'number', default: true },
         { id: 'orders', label: 'Đơn hàng', type: 'number', default: true },
         { id: 'revenue', label: 'Doanh thu', type: 'money', default: true },
-        { id: 'cr', label: 'CR', type: 'percent', default: true }
+        { id: 'cr', label: 'Tỷ lệ chuyển đổi', type: 'percent', default: true }
     ]
 };
 

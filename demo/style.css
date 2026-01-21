@@ -803,7 +803,8 @@ td {
 }
 
 .channel-icon.zalo {
-    background: #0068ff;
+    background: transparent;
+    color: #0068ff;
 }
 
 /* Image handles color */
